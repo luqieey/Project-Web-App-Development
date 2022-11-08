@@ -1,0 +1,67 @@
+:root {
+    --primary-color:rgb(62, 35, 80);
+    --color-white: #fff;
+    --color-black: rgb(46, 38, 24);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    min-height: 100vh;
+    line-height: 1.6;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("hotel1.jpg")no-repeat;
+    background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 700px;
+   width : 100%;
+   
+  }
+
+  /* utility */
+  a{
+    color: var(--color-white);
+    text-decoration: none;
+
+  }
+
+  /* header */
+header {
+    height: 10vh;
+    display: flex;
+}
+
+.main-nav {
+    width: 110%;
+    background-color: cadetblue;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+
+ .main-nav ul{
+    list-style: none;
+    display: flex;
+
+ }
+
+ .main-nav ul li a {
+    text-transform: capitalize;
+    padding-right: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
